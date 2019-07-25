@@ -1,0 +1,65 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: stretch;
+}
+
+h1 {
+    color: #a8a8a8;
+}
+
+#container {
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+}
+
+#main {
+    display: flex;
+    align-items: stretch;
+}
+
+canvas {
+    background-color: #3a3a3a;
+    margin-left: 10px;
+    margin-right: 10px;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.sawtooth {
+    border-style: solid;
+    border-width: 5px;
+    border-image: url(http://i.imgur.com/Usmr9yF.png) 13 round;
+ }
+
+ .health {
+     width: 25px;
+     background-color: #202020;
+     display: flex;
+     align-items: flex-end;
+     justify-content: center;
+     border-radius: 10px;
+     padding-bottom: 8px;
+     padding-top: 8px;
+ }
+
+ .bar {
+     width: 10px;
+     border-radius: 3px;
+ }
+
+ #score {
+     padding-left: 9px;
+     padding-right: 9px;
+     padding-top: 5px;
+     justify-content: space-between;
+     color: white;
+     font-size: 20px;
+     display: none;
+     font-weight: bold;
+ }
