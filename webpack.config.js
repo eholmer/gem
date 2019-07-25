@@ -30,7 +30,7 @@ module.exports = {
 				]
 			},
 			{
-				test: /\.mp3$/,
+				test: /\.png$/,
 				exclude: /node_modules/,
 				use: [
 					{ loader: 'file-loader' }
