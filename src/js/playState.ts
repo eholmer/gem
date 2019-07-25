@@ -10,7 +10,7 @@ export default class PlayState implements GameState {
 	private readonly OTHER_BALL_COLOR: string = '#6c8f54';
 	private readonly BALL_ACCELERATION: number = 0.008;
 	private readonly BALL_BREAK_FACTOR: number = 0.95;
-	private readonly HEALTH_REGAIN_RATE: number = 0.01;
+	private readonly HEALTH_REGAIN_RATE: number = 0.06;
 	private readonly WALL_BOUNCE_PENALY: number = 25;
 	private readonly KEY_MAP: Map<number, Direction> = new Map<number, Direction>([
 		[68, Direction.Right],
