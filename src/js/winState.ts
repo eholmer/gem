@@ -25,6 +25,10 @@ export default class WinState implements GameState {
         this.playState = playState;
     }
 
+    init(): void {
+        return;
+    }
+
     update(gameEngine: GameEngine, timestamp: number): void {
         let elapsedTime = timestamp - this.startTime;
         if (elapsedTime > this.WIN_DURATION) {
